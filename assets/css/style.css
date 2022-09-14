@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+body {
+  background-color: rgba(90, 121, 246, 0.73);
+  background-image: url(..//img/bakken.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#header {
+  background-image: url("http://jos.gluweb.nl/lessen/web/blue.png");
+background-repeat: no-repeat;
+  text-align: center;
+  line-height: 50px;
+  color: #ffffff;
+  font-size: 35px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  height: 75x;
+  width: 480px; /* breedte van de header */
+  margin: 0 auto;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 8px;
+  padding: 5px;
+}
+
+#content {
+  background-image: url(../img/bloempjes.jpg);
+  line-height: 25px;
+  background-repeat:repeat-x;
+  border-style: groove;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  width: 660px; /* breedte van de header */
+  margin: 0 auto;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 8px;
+  padding: 5px;
+}
+
+#Footer {
+  background-image: url(../img/bloempjes.jpg);
+  line-height: 25px;
+  background-repeat:repeat-x;
+
+  font-size: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  border-style: groove;
+  width: 660px; /* breedte van de header */
+  height: fit-content;
+  margin: 0 auto;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 8px;
+  padding: 5px;
+}
